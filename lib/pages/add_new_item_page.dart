@@ -147,10 +147,6 @@ class _AddNewItemPageState extends State<AddNewItemPage> {
                                   fillColor: Color(0xFF262826),
                                   labelStyle: TextStyle(
                                       fontFamily: 'Inter', color: Colors.white),
-                                  // hintStyle: TextStyle(
-                                  //     fontFamily: 'Inter',
-                                  //     color: Colors.white),
-                                  // hintText: 'Please select',
                                   border: OutlineInputBorder(
                                     borderSide: BorderSide.none,
                                   )),

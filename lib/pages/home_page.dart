@@ -187,8 +187,7 @@ class _HomePageState extends State<HomePage> {
                                   child: Column(
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Image.asset(
-                                          'assets/operations_image.png'),
+                                      Image.asset('assets/home_page.png'),
                                       const Padding(
                                         padding: EdgeInsets.symmetric(
                                             horizontal: 68),

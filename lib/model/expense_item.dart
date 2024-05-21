@@ -11,16 +11,14 @@ enum EExpenseType {
 }
 
 class ExpenseItem {
-  String? description;
   String? date;
   double? cost;
   EExpenseType? type;
 
-  ExpenseItem({this.description, this.date, this.cost, this.type});
+  ExpenseItem({this.date, this.cost, this.type});
 
   factory ExpenseItem.fromJson(Map<String, dynamic> parsedJson) {
     return ExpenseItem(
-        description: parsedJson['description'] ?? "",
         cost: parsedJson['cost'] ?? "",
         type: EExpenseType.values.byName(parsedJson['type']),
         date: parsedJson['date']);
@@ -28,7 +26,6 @@ class ExpenseItem {
 
   Map<String, dynamic> toJson() {
     return {
-      "description": description,
       "cost": cost,
       "date": date,
       "type": type!.name,

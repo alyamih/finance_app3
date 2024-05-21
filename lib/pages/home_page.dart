@@ -127,6 +127,8 @@ class _HomePageState extends State<HomePage> {
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                               color: Colors.white,
+                                              fontFamily: 'Inter',
+                                              fontWeight: FontWeight.w500,
                                               fontSize: 24),
                                         ),
                                       )
@@ -147,7 +149,10 @@ class _HomePageState extends State<HomePage> {
                                         'Add your incomes\nand expenses',
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
-                                            color: Colors.white, fontSize: 24),
+                                            color: Colors.white,
+                                            fontSize: 24,
+                                            fontFamily: 'Inter',
+                                            fontWeight: FontWeight.w500),
                                       ),
                                     ],
                                   ),
@@ -177,6 +182,8 @@ class _HomePageState extends State<HomePage> {
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                               color: Colors.white,
+                                              fontFamily: 'Inter',
+                                              fontWeight: FontWeight.w500,
                                               fontSize: 24),
                                         ),
                                       )
@@ -196,6 +203,8 @@ class _HomePageState extends State<HomePage> {
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
                                               color: Colors.white,
+                                              fontFamily: 'Inter',
+                                              fontWeight: FontWeight.w500,
                                               fontSize: 20),
                                         ),
                                       )
